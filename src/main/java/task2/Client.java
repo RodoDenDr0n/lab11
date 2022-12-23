@@ -17,11 +17,11 @@ public class Client {
     private String email;
     private Sex sex;
 
-    public Client(int age, String name,String email, Sex sex) {
-        this.id = ++count;
-        this.age = age;
-        this.name = name;
-        this.email = email;
-        this.sex = sex;
-    }
+//     public Client(int age, String name,String email, Sex sex) {
+//         this.id = ++count;
+//         this.age = age;
+//         this.name = name;
+//         this.email = email;
+//         this.sex = sex;
+//     }
 }
