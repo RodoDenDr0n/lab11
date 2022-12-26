@@ -8,8 +8,8 @@ public class RealImage implements MyImage {
     private JFrame frame;
 
     public RealImage(String filename) {
-        JFrame frame = new JFrame();
-        ImageIcon icon = new ImageIcon("image.jpg");
+        frame = new JFrame();
+        ImageIcon icon = new ImageIcon(filename);
         JLabel label = new JLabel(icon);
         frame.add(label);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
